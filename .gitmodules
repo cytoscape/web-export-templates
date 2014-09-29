@@ -1,6 +1,3 @@
 [submodule "cyjs-export-simple"]
 	path = cyjs-export-simple
 	url = git@github.com:idekerlab/cyjs-export-simple.git
-[submodule "cyjs-full-export"]
-	path = cyjs-full-export
-	url = git@github.com:idekerlab/cyjs-full-export.git
