@@ -20,7 +20,7 @@ gulp.task('copy-simple', function () {
 });
 
 gulp.task('copy-full', function () {
-    return gulp.src('cyjs-full-export/dist/**/*')
+    return gulp.src('cyjs-export-full/dist/**/*')
         .pipe(gulp.dest('dist/web/full'));
 });
 
