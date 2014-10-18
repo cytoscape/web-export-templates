@@ -15,7 +15,7 @@ gulp.task('default', ['clean'], function () {
 });
 
 gulp.task('copy-simple', function () {
-    return gulp.src('cyjs-export-simple/dist/**/*')
+    return gulp.src(['cyjs-export-simple/dist/**/*', '!cyjs-export-simple/dist/*.json'])
         .pipe(gulp.dest('dist/web/simple'));
 });
 
