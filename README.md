@@ -1,17 +1,22 @@
-## Export as Interactive Web Application Template
+# Web Export Template for Cytoscape 3
 
-### What is this?
-This is the parent project for all web application templates for __Export as Interactive Web Visualization__ option available for Cytoscape 3.2.0 and later.  However, these are simple JavaScript applications and you can use these as starting points for your own network visualization projects.
+## What is this?
+This is the parent project for all web application templates for __Export as Interactive Web Visualization__ option available in Cytoscape 3.2.0 and later.
 
-### Current Templates
+## Requirments
+* Node.js
+* Gulp
+* Grunt
 
-#### Simple Export
-Simple web application using Cytoscape.js to visualize the Cytoscpae.js-compatible JSON files.
+## Current Templates
+
+### Simple Export
+Simple web application using Cytoscape.js to visualize single network view exported in Cytoscpae.js JSON file.
 
 ##### How to Build Project
 This template uses [gulp](http://gulpjs.com/) for building application.
 
-###### Build Aplication:
+###### Build Application:
 ```
 gulp
 ```
@@ -21,7 +26,7 @@ gulp
 gulp serve
 ```
 
-#### Full Export
+### Full Export
 AngularJS-based single page application to visualize networks with Cytoscape.js.
 
 
@@ -38,6 +43,8 @@ grunt
 grunt serve
 ```
 
+## Create Zip Archive for json-impl
+(TBD)
 
 ## Documentation
 If you are interested in how to use this template manually, please visit our [wiki](https://github.com/idekerlab/cyjs-export-parent/wiki).
