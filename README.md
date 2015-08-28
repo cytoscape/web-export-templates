@@ -10,6 +10,15 @@ This is the parent project for all web application templates for __Export as Int
 
 ## Current Templates
 
+### Setup
+
+```
+git clone git@github.com:cytoscape/web-export-templates.git
+cd web-export-templates
+git submodule init
+git submodule update
+```
+
 ### Simple Export
 Simple web application using Cytoscape.js to visualize single network view exported in Cytoscpae.js JSON file.
 
